@@ -1,0 +1,99 @@
+@import "./common/var.scss";
+
+@font-face {
+  font-family: "v-ui-icons"; /* Project id 2820900 */
+  src: url('./fonts/iconfont.woff2?t=1631962836948') format('woff2'),
+       url('./fonts/iconfont.woff?t=1631962836948') format('woff'),
+       url('./fonts/iconfont.ttf?t=1631962836948') format('truetype');
+}
+
+
+[class^="#{$namespace}-icon-"] {
+  font-family: "v-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.v-icon-shouye:before {
+  content: "\e640";
+}
+
+.v-icon-shouji:before {
+  content: "\e641";
+}
+
+.v-icon-shezhi:before {
+  content: "\e645";
+}
+
+.v-icon-shangchuan:before {
+  content: "\e646";
+}
+
+.v-icon-qiandao:before {
+  content: "\e648";
+}
+
+.v-icon-moxingguanli:before {
+  content: "\e649";
+}
+
+.v-icon-moxing:before {
+  content: "\e64a";
+}
+
+.v-icon-chongzhijilu:before {
+  content: "\e650";
+}
+
+.v-icon-zhiding:before {
+  content: "\e633";
+}
+
+.v-icon-zhankai:before {
+  content: "\e634";
+}
+
+.v-icon-shouqi:before {
+  content: "\e635";
+}
+
+.v-icon-xiazai:before {
+  content: "\e639";
+}
+
+.v-icon-wodexiaoxi:before {
+  content: "\e63a";
+}
+
+.v-icon-tuichu:before {
+  content: "\e63c";
+}
+
+.v-icon-tupian:before {
+  content: "\e63d";
+}
+
+.v-icon-tixian:before {
+  content: "\e63e";
+}
+
+.v-icon-sousuo:before {
+  content: "\e63f";
+}
+
+
+// loading动画
+@keyframes rotate {
+  from {
+      opacity:0
+  }
+  to {
+      opacity:1;
+  }
+}
+.#{$namespace}-icon-loading {
+  animation: rotate 1.5s linear infinite;
+}

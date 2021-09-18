@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   name: 'theme-chalk'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\wtm\Desktop\github-project\vue3-ui
+3 error Error: Command failed with EPERM: git config --get user.name
+3 error spawnSync git EPERM
+3 error     at Object.spawnSync (internal/child_process.js:1067:20)
+3 error     at Object.spawnSync (child_process.js:602:24)
+3 error     at Function.module.exports.sync (C:\Users\wtm\Desktop\github-project\vue3-ui\node_modules\execa\index.js:174:25)
+3 error     at Object.execSync (C:\Users\wtm\Desktop\github-project\vue3-ui\node_modules\@lerna\child-process\index.js:39:16)
+3 error     at CreateCommand.gitConfig (C:\Users\wtm\Desktop\github-project\vue3-ui\node_modules\@lerna\create\index.js:181:25)
+3 error     at CreateCommand.initialize (C:\Users\wtm\Desktop\github-project\vue3-ui\node_modules\@lerna\create\index.js:103:46)

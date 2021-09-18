@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-button>按钮</v-button>
-        <v-icon>图标</v-icon>
+        <v-icon name="shouye"></v-icon>
     </div>
 </template>
 <script lang="ts">

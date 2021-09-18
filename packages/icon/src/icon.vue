@@ -1,12 +1,20 @@
 <template>
-    <span>icon</span>
+    <i :class="`v-icon-${name}`"></i>
 </template>
-<script lang="ts">
+
+<script>
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    name: 'VIcon',
-    setup() {
-    },
+    name:'VIcon',
+    props:{
+        name:{
+            type:String,
+            default:''
+        }
+    }
 })
 </script>
+
+
+
